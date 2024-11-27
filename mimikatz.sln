@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+VisualStudioVersion = 16.0.33027.164
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mimikatz", "mimikatz\mimikatz.vcxproj", "{FB9B5E61-7C34-4280-A211-E979E1D6977F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "global files", "global files", "{1ADABD33-DEBE-4095-8EAE-9B6ED51DB68E}"
@@ -86,10 +88,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mimispool", "mimispool\mimispool.vcxproj", "{0BD5DE6B-8DA5-4CF1-AE53-A265010F52AA}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|ARM64 = Release|ARM64
 		Release|Win32 = Release|Win32
@@ -172,5 +170,12 @@ Global
 		{96078881-DEC1-4EF5-A24A-A81AC007809D} = {294B51F3-90EF-4F0A-BB04-20321A513A4F}
 		{E9D1619F-D4A1-4AFA-B261-B01091EB8D56} = {294B51F3-90EF-4F0A-BB04-20321A513A4F}
 		{2FC87C8A-79C0-407D-A022-A13E793C2BC1} = {294B51F3-90EF-4F0A-BB04-20321A513A4F}
+	EndGlobalSection
+    GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B34E2C19-650A-4ADB-81B1-01B6F6585A6C}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
